@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.btn{
+    padding: 10px 50px;
+    border-radius: 0;
+}
+
+input:focus,
+textarea:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
