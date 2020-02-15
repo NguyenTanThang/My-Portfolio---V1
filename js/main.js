@@ -74,3 +74,26 @@ $(function () {
   });
 });
 
+/***** Navigator ****/
+const navHamburger = document.querySelector(".nav-hamburger");
+const mainNav = document.querySelector(".nav");
+
+navHamburger.addEventListener("click", (e) => {
+  if (navHamburger.classList.contains("active")){
+    navHamburger.classList.remove("active")
+    console.log(navHamburger.innerHTML)
+    setTimeout(() => {
+      navHamburger.innerHTML = '<i class="fas fa-bars fa-2x" aria-hidden="true"></i>'
+    }, 300)
+    console.log(navHamburger.innerHTML)
+    mainNav.classList.remove("active")
+  } else {
+    navHamburger.classList.add("active")
+    console.log(navHamburger.innerHTML)
+    setTimeout(() => {
+      navHamburger.innerHTML = '<i class="fas fa-times fa-2x" aria-hidden="true"></i>'
+    }, 300)
+    console.log(navHamburger.innerHTML)
+    mainNav.classList.add("active")
+  }
+})

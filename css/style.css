@@ -14,6 +14,11 @@ header {
 }
 
 /*Navigator*/
+
+.nav-hamburger{
+    display: none;
+}
+
 .navbar {
     background-color: #fff;
     padding-top: 20px;
@@ -150,39 +155,21 @@ header {
 }
 
 /*************About************/
-.skill-bars-header h5{
-    font-weight: bold;
-}
-
-.skill-bars-container h4{
+.skill-container h4{
     margin-bottom: 30px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
 }
 
-.skill-bar-item{
-    margin-bottom: 30px;
+.skill-container:last-child h4{
+    margin-bottom: 50px;
 }
 
-.skill-bars-progress{
-    position: relative;
-}
-
-.skill-bars-line{
-    background-color: var(--primary-color);
-    height: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-}
-
-.skill-bars-progress::after{
-    content: "";
-    background-color: rgb(209, 209, 209);
-    height: 5px;
-    width: 100%;
-    display: block;
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 /***********Projects*********/
