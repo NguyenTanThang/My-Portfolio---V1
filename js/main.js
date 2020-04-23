@@ -97,3 +97,15 @@ navHamburger.addEventListener("click", (e) => {
     mainNav.classList.add("active")
   }
 })
+
+
+/*SEnd Email */
+function sendMail() {
+  var link = "mailto:nguyentanthang9a4@gmail.com"
+           + `?cc=${document.getElementById('email').value}`
+           + "&subject=" + escape(`Email form ${document.getElementById('email').value}`)
+           + "&body=" + escape(document.getElementById('message').value)
+  ;
+
+  window.location.href = link;
+}
