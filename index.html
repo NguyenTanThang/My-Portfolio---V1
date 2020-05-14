@@ -85,11 +85,6 @@
                             <i class="fab fa-github" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-codepen" aria-hidden="true"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
 
@@ -796,6 +791,49 @@
     </section>
     <!-- Section coding end -->
 
+    <!-- Section contact ->
+    <section id="contact" class="section-padding">
+        <!-- Div section header ->
+        <div class="section-header header-white text-center">
+            <h2>GET IN TOUCH</h2>
+        </div>
+        <!-- Div section header end ->
+
+        <div class="container">
+            <form action="" id="contact-form">
+                <div class="row">
+                    <!-- Name Field ->
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="form-control" />
+                    </div>
+
+                    <!-- Email Field ->
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                        <input type="email" placeholder="Your Email" class="form-control" id="email" name="email" />
+                    </div>
+
+                    <!-- Message Field ->
+                    <div class="col-12">
+                        <textarea name="message" id="message" rows="10" class="form-control"
+                            placeholder="Your Message"></textarea>
+                    </div>
+
+                    <!-- Reset Button ->
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group mt-4">
+                        <button type="reset" class="btn btn-outline-light btn-block">RESET</button>
+                    </div>
+
+                    <!-- Submit Button ->
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group mt-4">
+                        <button type="submit" class="btn btn-danger btn-block" onclick="sendMail(); return false">SEND</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!-- Section contact end -->
+
     <!-- Section contact -->
     <section id="contact" class="section-padding">
         <!-- Div section header-->
@@ -805,36 +843,27 @@
         <!-- Div section header end -->
 
         <div class="container">
-            <form action="" id="contact-form">
-                <div class="row">
-                    <!-- Name Field -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" class="form-control" />
-                    </div>
+            <div class="row justify-content-around">
 
-                    <!-- Email Field -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" id="email" name="email" />
-                    </div>
+                <!-- Div contact item -->
+                <a target="_blank" href="https://goo.gl/maps/DxSL9cPoJnEG2RbNA" class="col-lg-3 col-md-5 col-sm-12 contact-item">
+                    <i class="fas fa-map-marker" aria-hidden="true"></i>
+                    <h4>Ho Chi Minh City, Viet Nam</h4>
+                </a>
 
-                    <!-- Message Field -->
-                    <div class="col-12">
-                        <textarea name="message" id="message" rows="10" class="form-control"
-                            placeholder="Your Message"></textarea>
-                    </div>
+                <!-- Div contact item -->
+                <a target="_blank" href="mailto:nguyentanthang1118@gmail.com" class="col-lg-3 col-md-5 col-sm-12 contact-item">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <h4>nguyentanthang1118@gmail.com</h4>
+                </a>
 
-                    <!-- Reset Button -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 form-group mt-4">
-                        <button type="reset" class="btn btn-outline-light btn-block">RESET</button>
-                    </div>
+                <!-- Div contact item -->
+                <a target="_blank" href="tel:+84363490257" class="col-lg-3 col-md-5 col-sm-12 contact-item">
+                    <i class="fas fa-mobile" aria-hidden="true"></i>
+                    <h4>+84 - 363.490.257</h4>
+                </a>
 
-                    <!-- Submit Button -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 form-group mt-4">
-                        <button type="submit" class="btn btn-danger btn-block" onclick="sendMail(); return false">SEND</button>
-                    </div>
-                </div>
-
-            </form>
+            </div>
         </div>
     </section>
     <!-- Section contact end -->

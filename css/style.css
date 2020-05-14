@@ -104,7 +104,7 @@ header {
 
 .home-sm-list {
     display: flex;
-    max-width: 150px;
+    max-width: 80px;
     margin: auto;
     justify-content: space-between;
     padding-top: 30px;
@@ -344,6 +344,38 @@ header {
 #contact-form input::placeholder,
 #contact-form textarea::placeholder{
     color: #FFF;
+}
+
+.contact-item {
+    display: inline-block;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: var(--default-trans);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.contact-item:hover {
+    box-shadow: 0px 0px 20px #FFF;
+    color: var(--primary-color);
+}
+
+.contact-item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-item i {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/*********Resources********/
+.resource-item {
+    text-align: center;
 }
 
 /*********Footer**********/
