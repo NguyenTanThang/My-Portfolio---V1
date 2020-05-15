@@ -100,3 +100,9 @@
         font-size: 2.8rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .contact-item h4 {
+        font-size: 0.8rem;
+    }
+}
