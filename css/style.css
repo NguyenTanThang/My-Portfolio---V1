@@ -104,7 +104,7 @@ header {
 
 .home-sm-list {
     display: flex;
-    max-width: 80px;
+    max-width: 120px;
     margin: auto;
     justify-content: space-between;
     padding-top: 30px;
